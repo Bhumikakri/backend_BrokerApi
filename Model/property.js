@@ -37,7 +37,7 @@ const propertySchema = new mongoose.Schema(
     imageUrls: {
       type: Array,
       // required: true,
-      default: [ "https://th.bing.com/th/id/OIP.wwxK07x0Umfnh0l-nrjxjgHaDg?rs=1&pid=ImgDetMain",]
+      default: [ "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=720&q=80",]
     },
     userRef: {
       type: mongoose.Schema.Types.ObjectId,
